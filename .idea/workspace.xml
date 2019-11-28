@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5255dda4-b237-40f3-824b-69d4060dd936" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/amazon/WebUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/amazon/WebUtility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/amazon/stepdef/AmazonStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/amazon/stepdef/AmazonStepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/amazon_sign_in.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/amazon_sign_in.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/amazon_sign_in.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/amazon_signin.feature" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
