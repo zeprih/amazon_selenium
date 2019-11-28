@@ -11,5 +11,5 @@ Feature: Sign In to Website Amazon
   Scenario: Negative case Sign In with wrong password
     When User input "andriani123" to field "password"
     And User click button sign in
-    Then System display link sign out
+    Then System display box verify "Authentication required"
     And Close browser

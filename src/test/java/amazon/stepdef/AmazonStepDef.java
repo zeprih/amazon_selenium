@@ -4,6 +4,7 @@ import amazon.pages.SwitchCase;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -44,10 +45,9 @@ public class AmazonStepDef {
         waitForElementVisible(By.id("auth-error-message-box"));
     }
 
-    @Then("^System display link sign out$")
-    public void system_display_link_sign_out() {
-        mouseOver(By.id("nav-signin-tooltip"));
-        waitForElementVisible(By.id("nav-item-signout"));
+    @Then("^System display box verify \"([^\"]*)\"$")
+    public void system_display_box_verify(String authenticationMessage) {
+        Assert.assertEquals(getValue(By.xpath("//*[@id=\"cvf-page-content\"]/div[1]/div/div/form/div[1]/h1")), authenticationMessage);
     }
 
     @When("^User input \"([^\"]*)\" to field \"([^\"]*)\"$")

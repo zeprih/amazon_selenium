@@ -1,7 +1,6 @@
 package amazon;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.interactions.Actions;
@@ -40,10 +39,11 @@ public class WebUtility<result> {
         wait.until(visibilityOfElementLocated(id));
     }
 
-    public static void mouseOver(By id){
-        Actions action = new Actions(_driver);
-        WebElement we = _driver.findElement(id);
-        action.moveToElement(we).moveToElement(_driver.findElement(id)).build().perform();
+    public static String getValue(By id) {
+        waitForElementVisible(id);
+        waitForAction(300);
+        String getValue = _driver.findElement(id).getText();
+        return getValue;
     }
 
     public static void waitAndFill(By id, String value) {

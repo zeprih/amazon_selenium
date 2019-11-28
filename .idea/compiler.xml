@@ -7,12 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="testMekari" />
+        <module name="test_mekari" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="testMekari" options="-Werror" />
+      <module name="test_mekari" options="-Werror" />
     </option>
   </component>
 </project>
