@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5255dda4-b237-40f3-824b-69d4060dd936" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/amazon_sign_in.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/amazon_signin.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +27,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -40,7 +41,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber java.Feature: amazon_sign_in (1)">
+  <component name="RunManager" selected="Cucumber java.Feature: amazon_signin">
     <configuration name="Feature: amazon_sign_in (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/amazon_sign_in.feature" />
@@ -77,13 +78,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: amazon_sign_up" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: amazon_signin" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/amazon_sign_up.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/amazon_signin.feature" />
+      <option name="GLUE" value="amazon.stepdef" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="testMekari" />
+      <module name="test_mekari" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome" />
-      <option name="SUGGESTED_NAME" value="Feature: amazon_sign_up" />
+      <option name="SUGGESTED_NAME" value="Feature: amazon_signin" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -132,13 +134,16 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber java.Feature: amazon_signin" />
         <item itemvalue="Cucumber java.Feature: amazon_sign_in (1)" />
         <item itemvalue="Cucumber java.Feature: amazon_signup (1)" />
         <item itemvalue="Cucumber java.Feature: amazon_sign_in" />
         <item itemvalue="Cucumber java.Feature: amazon_signup" />
-        <item itemvalue="Cucumber java.Feature: amazon_sign_up" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="showServicesTree" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
